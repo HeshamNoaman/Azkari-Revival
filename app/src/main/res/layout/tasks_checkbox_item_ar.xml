@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:textSize="16dp"
+        android:id="@+id/ChkIsDone"
+        android:paddingLeft="12dp"
+        android:buttonTint="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:ellipsize="none"
+        android:gravity="right"
+        android:id="@+id/tvTaskName"
+        android:paddingTop="10dp"
+        android:paddingRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ewwer"
+        android:width="0dp"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/ChkIsDone"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

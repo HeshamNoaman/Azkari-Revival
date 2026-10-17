@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rll_Items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/notification_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/sleep"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:textSize="16dp"
+        android:gravity="right"
+        android:id="@+id/tv_zeker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:text="Rememberance Item"
+        android:layout_toRightOf="@+id/notification_icon"
+        android:layout_alignTop="@+id/notification_icon"/>
+    <TextView
+        android:textSize="13dp"
+        android:gravity="right"
+        android:id="@+id/tv_notification_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:text="sfdsfdsf"
+        android:layout_toRightOf="@+id/notification_icon"
+        android:layout_below="@+id/tv_zeker_title"/>
+</RelativeLayout>

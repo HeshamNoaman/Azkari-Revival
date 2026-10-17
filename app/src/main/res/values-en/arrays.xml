@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="notifications_items_description">
+        <item>@string/Azkar_Al_Sabah_Desc</item>
+        <item>@string/Azkar_Al_Masaa_Desc</item>
+        <item>@string/Azkar_Maqabl_Al_Naoom_Desc</item>
+        <item>@string/Azkar_Al_Esteqad_Desc</item>
+    </array>
+</resources>

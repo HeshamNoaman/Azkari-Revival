@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:supportsRtl="true">
+
+        <activity
+            android:name="com.dot.azkari.StartupActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:noHistory="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.dot.azkari.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:noHistory="true"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.Menu"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+
+        <activity
+            android:name="com.dot.azkari.Prayers"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.TasabeehActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="Tasbeeh"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.SettingsActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.NotificationSettingsActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.HelpActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.LogActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.HelpViewActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.AboutActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.arttech.custom.dialogs.CustomSpinnerDialog"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="@string/app_name"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.arttech.custom.dialogs.CustomUpdateDialog"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.TasksMaster"
+            android:label="@string/title_activity_tasks_master"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.MasterCategories"
+            android:label="@string/title_activity_master_categories"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.dot.azkari.DetailsTasks"
+            android:label="@string/title_activity_details_tasks"
+            android:screenOrientation="nosensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.buzzbox.mob.android.scheduler.ui.SchedulerPreferenceActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.buzzbox.mob.android.scheduler.ui.SchedulerLogActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.buzzbox.mob.android.scheduler.ui.NotificationHistoryActivity"
+            android:exported="false"/>
+
+        <receiver
+            android:name="com.dot.azkari.WidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.dot.azkari.WIDGET_ADD"/>
+                <action android:name="com.dot.azkari.WIDGET_NEXT"/>
+                <action android:name="com.dot.azkari.WIDGET_PREV"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider"/>
+        </receiver>
+
+        <service
+            android:name="com.dot.azkari.WidgetSelectTsbeehService"
+            android:exported="false"/>
+        <service
+            android:name="com.dot.azkari.WidgetSelectPrevTsbeehService"
+            android:exported="false"/>
+        <service
+            android:name="com.dot.azkari.WidgetTimerService"
+            android:exported="false"/>
+
+        <receiver
+            android:name="com.buzzbox.mob.android.scheduler.SchedulerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.buzzbox.mob.android.scheduler.wakeup"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.buzzbox.mob.android.scheduler.ScheduledService"
+            android:exported="false"/>
+
+    </application>
+</manifest>

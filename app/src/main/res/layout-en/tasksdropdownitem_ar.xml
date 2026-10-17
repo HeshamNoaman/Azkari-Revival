@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:textSize="12dp"
+        android:textColor="#000000"
+        android:ellipsize="end"
+        android:id="@+id/spinnerOptions"
+        android:paddingRight="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="165dp"
+        android:minWidth="125dp"
+        android:singleLine="true"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:ellipsize="none"
+        android:gravity="left"
+        android:id="@+id/tvTaskName"
+        android:paddingLeft="12dp"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="es"
+        android:width="0dp"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:layout_weight="1"
+        android:layout_toLeftOf="@+id/spinnerOptions"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>
