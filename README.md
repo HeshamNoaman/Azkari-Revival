@@ -1,4 +1,4 @@
-# Azkari Revival (أذكاري)
+# Azkari Revival (أذكاري — النسخة الأصلية المطوّرة)
 
 [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B%20(API%2026%E2%80%9336)-brightgreen.svg)](https://developer.android.com)
 [![Target SDK](https://img.shields.io/badge/Target%20SDK-36%20(Android%2016)-blue.svg)](https://developer.android.com)
@@ -8,9 +8,9 @@
 [![GitHub Release](https://img.shields.io/github/v/release/HeshamNoaman/Azkari-Revival?color=blue&logo=github)](https://github.com/HeshamNoaman/Azkari-Revival/releases/latest)
 [![Download APK](https://img.shields.io/badge/Download-Release%20APK-success?logo=android)](https://github.com/HeshamNoaman/Azkari-Revival/releases/latest/download/Azkari-v1.7.apk)
 
-**Azkari Revival (أذكاري)** is an open-source, privacy-first Islamic supplication and daily prayer companion application for Android. 
+**Azkari Revival (أذكاري)** is an open-source, privacy-first Islamic supplication and daily prayer companion application for Android (`com.dot.azkari`). 
 
-Originally developed by **Dot Information Technology** and last updated on **June 28, 2014**, the application remained dormant for over a decade (~10 years) and is no longer available on either the Google Play Store or the Apple App Store. This project resurrects the beloved companion—modernized for **Android 8.0 (API 26) through Android 16 (API 36)**, with all Ramadan features completely unlocked, all legacy tracking removed, and a 100% offline pure Java architecture.
+Originally developed by **Dot Information Technology** (شركة دوت لتكنولوجيا المعلومات) and last updated on **June 28, 2014**, the application remained dormant for over a decade (~10 years) and was delisted from the Google Play Store and Apple App Store. This project resurrects the beloved original Azkari companion—modernized for **Android 8.0 (API 26) through Android 16 (API 36)**, with all Ramadan features completely unlocked, zero ads, zero tracking, and a 100% offline pure native Java architecture.
 
 ---
 
@@ -33,6 +33,25 @@ You can download the production APK directly from the latest release:
   - **Modern OS Support:** Re-architected for contemporary Android releases up to **Android 16 (API 36)** with modern Notification Channels and exact alarm scheduling.
   - **Fully Unlocked Ramadan Tracker:** The Ramadan planner, checklists, and daily deed logs are accessible to everyone completely free with zero paywalls.
   - **Zero Telemetry & 100% Offline:** All legacy ad networks, trackers, and telemetry were completely removed, ensuring the app runs entirely offline and respects user privacy.
+
+---
+
+## 🔍 Looking for the Original Azkari App? (عن تطبيق أذكاري الأصلي)
+
+If you arrived here searching for the original **Azkari (أذكاري)** Android application previously published on Google Play by **Dot Information Technology** (`com.dot.azkari`), you have found its modernized, open-source continuation.
+
+| Information / البيان | Details / التفاصيل |
+| :--- | :--- |
+| **App Name (اسم التطبيق)** | **أذكاري — Azkari** |
+| **Original Developer (المطور الأصلي)** | **Dot Information Technology** (دوت لتكنولوجيا المعلومات) / **Art Technologies** |
+| **Application ID (معرّف الحزمة)** | `com.dot.azkari` *(Preserved for full compatibility)* |
+| **Historical Release (آخر تحديث أصلي)** | Version 1.7 (June 28, 2014) |
+| **Store Availability (حالة المتجر)** | Delisted from Google Play Store & Apple App Store after 2014 |
+| **Revival License & Status (حالة المشروع)** | 100% Free & Open Source, 100% Offline, Zero Tracking, Zero Ads |
+
+### 🔎 Common Search Queries & Keywords (كلمات البحث والدلالات)
+* **بالعربية:** تحميل تطبيق أذكاري القديم الأصلي apk، برنامج أذكاري دوت انفورميشن تكنولوجي، تطبيق أذكاري النسخة الأصلية `com.dot.azkari`، أذكار الصباح والمساء بدون نت، أذكاري مهام رمضان كاملة بدون إعلانات وبدون اشتراك، مسبحة إلكترونية بدون إعلانات، حصن المسلم تطبيق أذكاري، تنزيل أذكاري للاندرويد الحديث.
+* **In English:** Azkari Android app, Azkari apk download, com.dot.azkari apk, Dot Information Technology Azkari, original Azkari app, Azkari revival, offline Islamic prayer and supplication app, Daily Azkar without ads, Ramadan deed tracker apk.
 
 ---
 
